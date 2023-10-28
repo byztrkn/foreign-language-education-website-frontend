@@ -1,0 +1,6 @@
+.contact-box{
+    width: calc(100% - 100px);
+    padding: 50px;
+    text-align: center;
+
+}

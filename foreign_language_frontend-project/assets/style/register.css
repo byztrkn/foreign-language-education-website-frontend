@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(136, 136, 217);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 35%;
+    height: 500px;
+    background-color: bisque;
+    margin-top: 10%;
+    border: 8px sandybrown;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container .register-input{
+    width: 85%;
+    padding: 13px 5px;
+    border:2px solid rgb(63, 93, 63);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.container .register-button{
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: burlywood;
+    color:darkslategrey;
+    
+}
+
+.container .register-button:hover{
+    background-color: darkslategray;
+    color: burlywood;
+    cursor:pointer;
+}
